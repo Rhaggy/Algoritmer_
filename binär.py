@@ -1,4 +1,11 @@
-lst = [12,34,778,34,6752,3,562,324,7534,6754,67,54789,99]
+import random
+max = 200
+min = -200
+n = 5
+lst = []
+lst.append(random.randint(min,max))
+
+print(range(n).lst)
 
 x = 34
  

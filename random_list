@@ -1,0 +1,10 @@
+import random
+lst = []
+def random_lst(n):
+    
+    for i in range(min,max):
+        lst.append(random.randint(min,max))
+
+random_lst()
+
+print(lst)
