@@ -1,5 +1,4 @@
-import random
+from random_list import random_lst
 
-random_lst()
 
-print(lst)
+print(random_lst)

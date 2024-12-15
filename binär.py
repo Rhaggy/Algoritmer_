@@ -1,11 +1,7 @@
-import random
-max = 200
-min = -200
-n = 5
-lst = []
-lst.append(random.randint(min,max))
 
-print(range(n).lst)
+
+lst = [23,65,323,12,43,34,76,87,34,23,45,33412,223,56,78,]
+
 
 x = 34
  
