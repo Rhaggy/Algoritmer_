@@ -1,4 +1,18 @@
 import random 
-arr = [4,6,5,2,1,3]
-for i in range(len(arr)-1):
-    
+import numpy as np
+import matplotlib.pyplot as plt
+
+amount = 30
+
+lst = np.random.randint(0, 100, amount)
+x = np.arange(0, amount, 1)
+
+n = len(lst)
+for i in range(n):
+    for j in range(0, n-i-1):
+        plt.bar(x, lst)
+        plt.pause(0.1)
+        plt.clf
+        if lst[j] > lst[j+1]:
+            lst[j], lst[j+1] = lst[j+1], lst[j]
+plt.show
